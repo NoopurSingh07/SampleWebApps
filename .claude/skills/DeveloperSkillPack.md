@@ -1,6 +1,7 @@
 skills:
   - name: commit message
     description: Generate a concise commit message for staged changes.
+    allowed-tools: Read, Grep, Glob, Bash
     commands:
       - /commit
     inputs:
@@ -13,6 +14,7 @@ skills:
 
   - name: run tests
     description: Execute unit or integration tests for the project.
+    allowed-tools: Read, Grep, Glob, Bash
     commands:
       - /test
     inputs:
@@ -25,6 +27,7 @@ skills:
 
   - name: lint code
     description: Run linting checks to enforce coding standards.
+    allowed-tools: Read, Grep, Glob, Bash
     commands:
       - /lint
     inputs:
@@ -37,6 +40,7 @@ skills:
 
   - name: build project
     description: Compile or package the project for deployment.
+    allowed-tools: Read, Grep, Glob, Bash
     commands:
       - /build
     inputs:
@@ -49,6 +53,7 @@ skills:
 
   - name: deploy project
     description: Deploy the project to staging or production environment.
+    allowed-tools: Read, Grep, Glob, Bash
     commands:
       - /deploy
     inputs:
@@ -61,6 +66,7 @@ skills:
 
   - name: release project
     description: Tag and publish a new version of the project.
+    allowed-tools: Read, Grep, Glob, Bash
     commands:
       - /release
     inputs:

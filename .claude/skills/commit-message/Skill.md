@@ -1,6 +1,7 @@
 ---
 name: commit-message
 description: Generate a concise commit message for staged changes.
+allowed-tools: Read, Grep, Glob, Bash
 commands:
   - /commit
 inputs:
